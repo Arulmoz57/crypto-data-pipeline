@@ -29,6 +29,7 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 │       ├── dim_crypto_assests.sql
 │       └── fact_crypto_prices.sql
 │
+├── .env.example                # Configuration template for local setup
 ├── .gitignore                  # Protection layer preventing credential leakage
 ├── Crypto_Market_Intelligence.pbix # Power BI Desktop visualization report
 ├── dbt_project.yml             # Core dbt configuration mapping
