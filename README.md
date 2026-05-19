@@ -46,5 +46,6 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 * **BI Platform:** Microsoft Power BI Desktop
 
 ---
+## 🏗️ Power BI Dashboard
 
-![Power BI Dashboard Layout](dashboard.png)
+![Power BI Dashboard Layout](dashboard.png) 
