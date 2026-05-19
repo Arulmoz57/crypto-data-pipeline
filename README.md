@@ -35,7 +35,8 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 ├── dbt_project.yml             # Core dbt configuration mapping
 ├── ingest.py                   # Python REST API ingestion engine
 ├── README.md                   # Project documentation manual
-└── requirements.txt            # Python software dependencies ```text
+└── requirements.txt            # Python software dependencies
+```
 
 ---
 
