@@ -45,4 +45,6 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 * **Data Transformation:** dbt Core (v1.7+)
 * **BI Platform:** Microsoft Power BI Desktop
 
+---
 
+![Power BI Dashboard Layout](Crypto-Market-Intelligence.png)
