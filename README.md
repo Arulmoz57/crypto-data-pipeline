@@ -35,17 +35,20 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 ├── dbt_project.yml             # Core dbt configuration mapping
 ├── ingest.py                   # Python REST API ingestion engine
 ├── README.md                   # Project documentation manual
-└── requirements.txt            # Python software dependencies
+└── requirements.txt            # Python software dependencies ```
 
 ---
 
-## **🛠️ Tech Stack & Prerequisites**
+## 🛠️ Tech Stack & Prerequisites
 * **Languages:** Python 3.11, SQL (Snowflake-dialect)
 * **Cloud Platform:** Snowflake Data Warehouse
 * **Data Transformation:** dbt Core (v1.7+)
 * **BI Platform:** Microsoft Power BI Desktop
 
 ---
-## **🏗️ Power BI Dashboard**
 
-![Power BI Dashboard Layout](dashboard.png) 
+## 📊 Power BI Dashboard Executive Preview
+
+Below is the live visual analytics layout serving automated intelligence data pulled straight from the optimized Snowflake analytical tables:
+
+![Power BI Dashboard Layout](dashboard.png)
