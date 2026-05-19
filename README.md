@@ -6,6 +6,8 @@ An automated, cloud-native ELT data pipeline that extracts real-time market metr
 
 ## 🏗️ System Architecture
 
+![System Architecture](architecture.png)
+
 The platform utilizes a decoupled ELT architecture to separate data ingestion from business transformation logic:
 1. **Extraction Layer:** A Python 3.11 script queries the live CoinGecko REST API to fetch structured market dynamics.
 2. **Raw Landing Layer:** Payloads are ingested into Snowflake (`RAW_MARKET_DATA`) as an immutable source of truth.
@@ -33,3 +35,13 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 ├── ingest.py                   # Python REST API ingestion engine
 ├── README.md                   # Project documentation manual
 └── requirements.txt            # Python software dependencies
+
+---
+
+## 🛠️ Tech Stack & Prerequisites
+* **Languages:** Python 3.11, SQL (Snowflake-dialect)
+* **Cloud Platform:** Snowflake Data Warehouse
+* **Data Transformation:** dbt Core (v1.7+)
+* **BI Platform:** Microsoft Power BI Desktop
+
+
