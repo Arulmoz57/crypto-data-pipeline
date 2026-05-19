@@ -47,4 +47,4 @@ The platform utilizes a decoupled ELT architecture to separate data ingestion fr
 
 ---
 
-![Power BI Dashboard Layout](Crypto-Market-Intelligence.png)
+![Power BI Dashboard Layout](dashboard.png)
